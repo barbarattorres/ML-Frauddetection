@@ -1,0 +1,108 @@
+----class presentation 
+summery of the case , target 
+row 1,048,757 total (fraud 80,393- 7.66%)
+feature 16  
+main feature 8
+-------------------
+----stakeholder presentation 
+using the model how much we can save
+
+
+
+--------------------
+------8 features to foucs on----
+counter_type 0= elec , 1 Gas 
+0    53858
+1    26535
+
+counter_coefficient of (1 or 10)
+tarif_type   (11    44996) / (40    25930)
+avg consumption of 688 ()
+number of months before dedection 
+months_number
+region
+counter_statue (how well the counter is working from fine 0 till 5) (0    78513)
+reading_remarque 
+
+
+--------------------
+---observation how to adjust the search in the future------most fraud have the following 
+
+#counter_coefficient of (1 or 10)
+
+#tarif_type
+11    44996
+40    25930
+10     5815
+15     1840
+45      605
+29      340
+13      265
+14      263
+12      256
+9        83
+
+
+
+#avg consumption of 688 ()
+
+#counter_type 0= elec , 1 Gas 
+0    53858
+1    26535
+
+# distribution of consumption
+consommation_level_1    2569
+consommation_level_2    2733
+consommation_level_3     793
+consommation_level_4    2262
+
+
+# number of months before dedection 
+months_number
+4      63209
+2       5334
+1       4814
+8       4639
+12       953
+6        639
+16       195
+3        194
+10       142
+5         64
+20        53
+14        52
+24        26
+7         14
+28        12
+18        11
+11         7
+708        5
+
+# region
+311    13628
+101    12282
+103     9031
+104     8292
+107     6000
+
+
+counter_statue (how well the counter is working from fine 0 till 5)
+0    78513
+1     1329
+5      479
+4       70
+
+
+reading_remarque
+6    38962
+9    26089
+8    15342
+intresting note there is no 7
+Name: count, dtype: int64
+(not very affective , would recoomend a new approch)
+
+
+
+
+
+
